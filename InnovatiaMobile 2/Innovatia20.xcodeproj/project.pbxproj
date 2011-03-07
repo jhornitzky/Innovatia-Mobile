@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Innovatia20AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Innovatia20AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		C600CE011063BE2000393F22 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C600CDFF1063BE2000393F22 /* PhotoViewController.m */; };
+		C600CE021063BE2000393F22 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C600CE001063BE2000393F22 /* PhotoViewController.xib */; };
+		C636AB8D10778D7300F60285 /* Innovatiav1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C636AB8C10778D7300F60285 /* Innovatiav1.sqlite */; };
+		C67F645D1078BB890077DCAD /* headerContainer.png in Resources */ = {isa = PBXBuildFile; fileRef = C67F645A1078BB890077DCAD /* headerContainer.png */; };
+		C67F645F1078BB890077DCAD /* settingsContainer.png in Resources */ = {isa = PBXBuildFile; fileRef = C67F645C1078BB890077DCAD /* settingsContainer.png */; };
+		C6870A5C107F3EF3004030BF /* TwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6870A5B107F3EF3004030BF /* TwitterRequest.m */; };
+		C6870A65107F4F5C004030BF /* TwitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6870A63107F4F5C004030BF /* TwitViewController.m */; };
+		C6870A66107F4F5C004030BF /* TwitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6870A64107F4F5C004030BF /* TwitViewController.xib */; };
+		C6870AF9107F6B57004030BF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C6870AF8107F6B57004030BF /* twitter.png */; };
+		C6870AFF107F6D1F004030BF /* twitter_logo_header.png in Resources */ = {isa = PBXBuildFile; fileRef = C6870AFE107F6D1F004030BF /* twitter_logo_header.png */; };
+		C6870B04107F7063004030BF /* innovatia.png in Resources */ = {isa = PBXBuildFile; fileRef = C6870B01107F7063004030BF /* innovatia.png */; };
+		C6870B05107F7063004030BF /* innovatiaCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C6870B02107F7063004030BF /* innovatiaCloud.png */; };
+		C6870B06107F7063004030BF /* innovatiaSync.png in Resources */ = {isa = PBXBuildFile; fileRef = C6870B03107F7063004030BF /* innovatiaSync.png */; };
+		C689229E107DFC85004C40AF /* draw.png in Resources */ = {isa = PBXBuildFile; fileRef = C6892299107DFC85004C40AF /* draw.png */; };
+		C689229F107DFC85004C40AF /* mail-5.png in Resources */ = {isa = PBXBuildFile; fileRef = C689229A107DFC85004C40AF /* mail-5.png */; };
+		C68922A0107DFC85004C40AF /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = C689229B107DFC85004C40AF /* picture.png */; };
+		C68922A1107DFC85004C40AF /* sound-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C689229C107DFC85004C40AF /* sound-1.png */; };
+		C68C2465106661E7000421E1 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68C2463106661E7000421E1 /* SyncViewController.m */; };
+		C68C2466106661E7000421E1 /* SyncViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68C2464106661E7000421E1 /* SyncViewController.xib */; };
+		C68E5D5B1058AABA002E3ECD /* SoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E5D591058AABA002E3ECD /* SoundViewController.m */; };
+		C68E5D5C1058AABA002E3ECD /* SoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E5D5A1058AABA002E3ECD /* SoundViewController.xib */; };
+		C68E5F2D1058BCB8002E3ECD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E5F2C1058BCB8002E3ECD /* AVFoundation.framework */; };
+		C690A9D01078397800942471 /* iphoneBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C690A9CF1078397800942471 /* iphoneBG.png */; };
+		C690AA991078530F00942471 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AA981078530F00942471 /* Icon.png */; };
+		C690AA9B1078531800942471 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AA9A1078531800942471 /* Icon-Small.png */; };
+		C690AAA11078638400942471 /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AA9E1078638400942471 /* noImage.png */; };
+		C690AAA21078638400942471 /* noSoundExists.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AA9F1078638400942471 /* noSoundExists.png */; };
+		C690AAA31078638400942471 /* soundExists.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AAA01078638400942471 /* soundExists.png */; };
+		C690AB2D1078727200942471 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AB2C1078727200942471 /* Default.png */; };
+		C690AB39107875D200942471 /* ideaMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = C690AB38107875D200942471 /* ideaMarker.png */; };
+		C690AB411078790300942471 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C690AB401078790300942471 /* MessageUI.framework */; };
+		C69129BB104D5B2100F489A0 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69129B9104D5B2100F489A0 /* ShareViewController.m */; };
+		C69129BC104D5B2100F489A0 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C69129BA104D5B2100F489A0 /* ShareViewController.xib */; };
+		C699C0EA105547C700707626 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C699C0E8105547C700707626 /* DrawViewController.m */; };
+		C699C0EB105547C700707626 /* DrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C699C0E9105547C700707626 /* DrawViewController.xib */; };
+		C7899FA80E6C3E810076708A /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7899FA70E6C3E810076708A /* NoteCell.m */; };
+		C79B84950E7347D700B40694 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79B84940E7347D700B40694 /* NoteViewController.xib */; };
+		C79B84A70E7349BC00B40694 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79B84A60E7349BC00B40694 /* NoteViewController.m */; };
+		C7EE73F70E59217200D2123D /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EE73F60E59217200D2123D /* Note.m */; };
+		C7EE74150E5923FE00D2123D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EE74140E5923FE00D2123D /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Innovatia20AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Innovatia20AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Innovatia20AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Innovatia20AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Innovatia20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Innovatia20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Innovatia20_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Innovatia20_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C600CDFE1063BE2000393F22 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = ../PhotoViewController.h; sourceTree = "<group>"; };
+		C600CDFF1063BE2000393F22 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = ../PhotoViewController.m; sourceTree = "<group>"; };
+		C600CE001063BE2000393F22 /* PhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		C636AB8C10778D7300F60285 /* Innovatiav1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Innovatiav1.sqlite; sourceTree = "<group>"; };
+		C67F645A1078BB890077DCAD /* headerContainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerContainer.png; sourceTree = "<group>"; };
+		C67F645C1078BB890077DCAD /* settingsContainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsContainer.png; sourceTree = "<group>"; };
+		C6870A5A107F3EF3004030BF /* TwitterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequest.h; sourceTree = "<group>"; };
+		C6870A5B107F3EF3004030BF /* TwitterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequest.m; sourceTree = "<group>"; };
+		C6870A62107F4F5C004030BF /* TwitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitViewController.h; sourceTree = "<group>"; };
+		C6870A63107F4F5C004030BF /* TwitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitViewController.m; sourceTree = "<group>"; };
+		C6870A64107F4F5C004030BF /* TwitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TwitViewController.xib; path = Classes/TwitViewController.xib; sourceTree = "<group>"; };
+		C6870AF8107F6B57004030BF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		C6870AFE107F6D1F004030BF /* twitter_logo_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_logo_header.png; sourceTree = "<group>"; };
+		C6870B01107F7063004030BF /* innovatia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innovatia.png; sourceTree = "<group>"; };
+		C6870B02107F7063004030BF /* innovatiaCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innovatiaCloud.png; sourceTree = "<group>"; };
+		C6870B03107F7063004030BF /* innovatiaSync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innovatiaSync.png; sourceTree = "<group>"; };
+		C6892299107DFC85004C40AF /* draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draw.png; sourceTree = "<group>"; };
+		C689229A107DFC85004C40AF /* mail-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-5.png"; sourceTree = "<group>"; };
+		C689229B107DFC85004C40AF /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		C689229C107DFC85004C40AF /* sound-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-1.png"; sourceTree = "<group>"; };
+		C68C2462106661E7000421E1 /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncViewController.h; path = ../SyncViewController.h; sourceTree = "<group>"; };
+		C68C2463106661E7000421E1 /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyncViewController.m; path = ../SyncViewController.m; sourceTree = "<group>"; };
+		C68C2464106661E7000421E1 /* SyncViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SyncViewController.xib; sourceTree = "<group>"; };
+		C68E5D581058AABA002E3ECD /* SoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundViewController.h; path = ../SoundViewController.h; sourceTree = "<group>"; };
+		C68E5D591058AABA002E3ECD /* SoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundViewController.m; path = ../SoundViewController.m; sourceTree = "<group>"; };
+		C68E5D5A1058AABA002E3ECD /* SoundViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoundViewController.xib; sourceTree = "<group>"; };
+		C68E5F2C1058BCB8002E3ECD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C690A9CF1078397800942471 /* iphoneBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBG.png; sourceTree = "<group>"; };
+		C690AA981078530F00942471 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C690AA9A1078531800942471 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C690AA9E1078638400942471 /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImage.png; sourceTree = "<group>"; };
+		C690AA9F1078638400942471 /* noSoundExists.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noSoundExists.png; sourceTree = "<group>"; };
+		C690AAA01078638400942471 /* soundExists.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundExists.png; sourceTree = "<group>"; };
+		C690AB2C1078727200942471 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C690AB38107875D200942471 /* ideaMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ideaMarker.png; sourceTree = "<group>"; };
+		C690AB401078790300942471 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C69129B8104D5B2100F489A0 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareViewController.h; path = ../ShareViewController.h; sourceTree = "<group>"; };
+		C69129B9104D5B2100F489A0 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareViewController.m; path = ../ShareViewController.m; sourceTree = "<group>"; };
+		C69129BA104D5B2100F489A0 /* ShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		C699C0E7105547C700707626 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		C699C0E8105547C700707626 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		C699C0E9105547C700707626 /* DrawViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DrawViewController.xib; path = Classes/DrawViewController.xib; sourceTree = "<group>"; };
+		C7899FA60E6C3E810076708A /* NoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
+		C7899FA70E6C3E810076708A /* NoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
+		C79B84940E7347D700B40694 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		C79B84A50E7349BC00B40694 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		C79B84A60E7349BC00B40694 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		C7EE73F50E59217200D2123D /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		C7EE73F60E59217200D2123D /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C7EE74140E5923FE00D2123D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				C7EE74150E5923FE00D2123D /* libsqlite3.0.dylib in Frameworks */,
+				C68E5F2D1058BCB8002E3ECD /* AVFoundation.framework in Frameworks */,
+				C690AB411078790300942471 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6870A59107F3EE7004030BF /* Util */,
+				C68E5D881058AF5E002E3ECD /* Model */,
+				C68E5D871058AF44002E3ECD /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Innovatia20.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C699C0F2105547E800707626 /* Views */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Innovatia20_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6870B01107F7063004030BF /* innovatia.png */,
+				C6870B02107F7063004030BF /* innovatiaCloud.png */,
+				C6870B03107F7063004030BF /* innovatiaSync.png */,
+				C6870AFE107F6D1F004030BF /* twitter_logo_header.png */,
+				C6870AF8107F6B57004030BF /* twitter.png */,
+				C6892299107DFC85004C40AF /* draw.png */,
+				C689229A107DFC85004C40AF /* mail-5.png */,
+				C689229B107DFC85004C40AF /* picture.png */,
+				C689229C107DFC85004C40AF /* sound-1.png */,
+				C67F645A1078BB890077DCAD /* headerContainer.png */,
+				C67F645C1078BB890077DCAD /* settingsContainer.png */,
+				C690AB38107875D200942471 /* ideaMarker.png */,
+				C690AA9E1078638400942471 /* noImage.png */,
+				C690AA9F1078638400942471 /* noSoundExists.png */,
+				C690AAA01078638400942471 /* soundExists.png */,
+				C690AA9A1078531800942471 /* Icon-Small.png */,
+				C690AA981078530F00942471 /* Icon.png */,
+				C690A9CF1078397800942471 /* iphoneBG.png */,
+				C636AB8C10778D7300F60285 /* Innovatiav1.sqlite */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				C690AB2C1078727200942471 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C690AB401078790300942471 /* MessageUI.framework */,
+				C68E5F2C1058BCB8002E3ECD /* AVFoundation.framework */,
+				C7EE74140E5923FE00D2123D /* libsqlite3.0.dylib */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6870A59107F3EE7004030BF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C6870A5A107F3EF3004030BF /* TwitterRequest.h */,
+				C6870A5B107F3EF3004030BF /* TwitterRequest.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C68E5D871058AF44002E3ECD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C68C2462106661E7000421E1 /* SyncViewController.h */,
+				C68C2463106661E7000421E1 /* SyncViewController.m */,
+				C600CDFE1063BE2000393F22 /* PhotoViewController.h */,
+				C600CDFF1063BE2000393F22 /* PhotoViewController.m */,
+				C68E5D581058AABA002E3ECD /* SoundViewController.h */,
+				C68E5D591058AABA002E3ECD /* SoundViewController.m */,
+				C69129B8104D5B2100F489A0 /* ShareViewController.h */,
+				C69129B9104D5B2100F489A0 /* ShareViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* Innovatia20AppDelegate.h */,
+				1D3623250D0F684500981E51 /* Innovatia20AppDelegate.m */,
+				C79B84A50E7349BC00B40694 /* NoteViewController.h */,
+				C79B84A60E7349BC00B40694 /* NoteViewController.m */,
+				C699C0E7105547C700707626 /* DrawViewController.h */,
+				C699C0E8105547C700707626 /* DrawViewController.m */,
+				C6870A62107F4F5C004030BF /* TwitViewController.h */,
+				C6870A63107F4F5C004030BF /* TwitViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C68E5D881058AF5E002E3ECD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7EE73F50E59217200D2123D /* Note.h */,
+				C7EE73F60E59217200D2123D /* Note.m */,
+				C7899FA60E6C3E810076708A /* NoteCell.h */,
+				C7899FA70E6C3E810076708A /* NoteCell.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C699C0F2105547E800707626 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6870A64107F4F5C004030BF /* TwitViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				C79B84940E7347D700B40694 /* NoteViewController.xib */,
+				C69129BA104D5B2100F489A0 /* ShareViewController.xib */,
+				C699C0E9105547C700707626 /* DrawViewController.xib */,
+				C68E5D5A1058AABA002E3ECD /* SoundViewController.xib */,
+				C600CE001063BE2000393F22 /* PhotoViewController.xib */,
+				C68C2464106661E7000421E1 /* SyncViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Innovatia20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Innovatia20" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Innovatia20;
+			productName = Innovatia20;
+			productReference = 1D6058910D05DD3D006BFB54 /* Innovatia20.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Innovatia20" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Innovatia20 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				C79B84950E7347D700B40694 /* NoteViewController.xib in Resources */,
+				C69129BC104D5B2100F489A0 /* ShareViewController.xib in Resources */,
+				C699C0EB105547C700707626 /* DrawViewController.xib in Resources */,
+				C68E5D5C1058AABA002E3ECD /* SoundViewController.xib in Resources */,
+				C600CE021063BE2000393F22 /* PhotoViewController.xib in Resources */,
+				C68C2466106661E7000421E1 /* SyncViewController.xib in Resources */,
+				C636AB8D10778D7300F60285 /* Innovatiav1.sqlite in Resources */,
+				C690A9D01078397800942471 /* iphoneBG.png in Resources */,
+				C690AA991078530F00942471 /* Icon.png in Resources */,
+				C690AA9B1078531800942471 /* Icon-Small.png in Resources */,
+				C690AAA11078638400942471 /* noImage.png in Resources */,
+				C690AAA21078638400942471 /* noSoundExists.png in Resources */,
+				C690AAA31078638400942471 /* soundExists.png in Resources */,
+				C690AB2D1078727200942471 /* Default.png in Resources */,
+				C690AB39107875D200942471 /* ideaMarker.png in Resources */,
+				C67F645D1078BB890077DCAD /* headerContainer.png in Resources */,
+				C67F645F1078BB890077DCAD /* settingsContainer.png in Resources */,
+				C689229E107DFC85004C40AF /* draw.png in Resources */,
+				C689229F107DFC85004C40AF /* mail-5.png in Resources */,
+				C68922A0107DFC85004C40AF /* picture.png in Resources */,
+				C68922A1107DFC85004C40AF /* sound-1.png in Resources */,
+				C6870A66107F4F5C004030BF /* TwitViewController.xib in Resources */,
+				C6870AF9107F6B57004030BF /* twitter.png in Resources */,
+				C6870AFF107F6D1F004030BF /* twitter_logo_header.png in Resources */,
+				C6870B04107F7063004030BF /* innovatia.png in Resources */,
+				C6870B05107F7063004030BF /* innovatiaCloud.png in Resources */,
+				C6870B06107F7063004030BF /* innovatiaSync.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Innovatia20AppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				C7EE73F70E59217200D2123D /* Note.m in Sources */,
+				C7899FA80E6C3E810076708A /* NoteCell.m in Sources */,
+				C79B84A70E7349BC00B40694 /* NoteViewController.m in Sources */,
+				C69129BB104D5B2100F489A0 /* ShareViewController.m in Sources */,
+				C699C0EA105547C700707626 /* DrawViewController.m in Sources */,
+				C68E5D5B1058AABA002E3ECD /* SoundViewController.m in Sources */,
+				C600CE011063BE2000393F22 /* PhotoViewController.m in Sources */,
+				C68C2465106661E7000421E1 /* SyncViewController.m in Sources */,
+				C6870A5C107F3EF3004030BF /* TwitterRequest.m in Sources */,
+				C6870A65107F4F5C004030BF /* TwitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Innovatia20_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Innovatia20;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Innovatia20_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Innovatia20;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Innovatia20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Innovatia20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

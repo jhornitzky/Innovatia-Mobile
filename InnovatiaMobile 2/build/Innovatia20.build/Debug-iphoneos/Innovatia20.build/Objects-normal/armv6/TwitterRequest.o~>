@@ -1,0 +1,2 @@
+/Users/gg/Desktop/InnovatiaMobile 2/Classes/TwitterRequest.m:147: warning: incomplete implementation of class 'TwitterRequest'
+/Users/gg/Desktop/InnovatiaMobile 2/Classes/TwitterRequest.m:147: warning: method definition for '-statuses_update:delegate:requestSelector:' not found
